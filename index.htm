@@ -1,254 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="referrer" content="no-referrer">
-  <title>dash player</title>
-<script src="https://cdn.jsdelivr.net/npm/video.js@latest/dist/video.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/video.js@latest/dist/video-js.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link href="https://unpkg.com/videojs-max-quality-selector@0.9.1/dist/videojs-max-quality-selector.css" rel="stylesheet">
-<link rel="stylesheet" href="https://vsalema.github.io/tvpt4/css/tresmin.css" rel="stylesheet" type="text/css">
- <link href="https://cdn.jsdelivr.net/npm/videojs-logo@2.1.1/dist/videojs-logo.css" rel="stylesheet">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://vsalema.github.io/play3/js/open52.js"></script>
-  
-  <style>
-@import url("https://vsalema.github.io/tvpt4/css/tooltip.css");
-.container{margin: auto; width:700px;}
-.vjs-brand-container-link{position:relative;top:14px;left:0px;}
-</style>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>TVradioZap tools: Watch full screen live TV, videos, or play any radio, audio. Hls m3u8, Dailymotion, Youtube, Vimeo, Twitch, mp4, mp3, aac, ogg, flac... Regardez les TV et vidéos plein écran ou écouter radios et audio </title>
+
+	<link rel="stylesheet" type="text/css" href="https://tvradiozap.eu/css/tvrz52.css" />	
+	<style>
+		body {padding-left:15px;}
+		a {text-decoration: none;margin:20px;}
+		input {color:green;margin-right:10px;margin-top:5px; height:1.8em;width:96%;}
+	</style>
+
+	
 </head>
-<body translate="no">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.20.1/video.min.js"></script>
-<script src="https://unpkg.com/videojs-contrib-dash/dist/videojs-dash.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-logo@2.1.1/dist/videojs-logo.js"></script>
-<div class="video-container player">
-	<div class="hero__headline__name" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center; top: 6px; width: 100%; height: 100%;z-index:1000;">
-<div class="moveToVideoJs" style="position: absolute; margin-left: auto; margin-right: auto; left: 49px; right: 0; text-align: center; top: 4px; width:  visibility: visible;"><span><span class="hero__headline__name" style="color: #fff;font-weight: bold;">dash player</span></span>
-	</div></div>
-<div id="player" hidden></div>
-<video class='playads js-video video-js vjs-16-9 vjs-big-play-centered'  autoplay controls preload="auto" height='520' id='js-video-horsa' playsinline width='920' poster="https://imagekit.io/blog/content/images/2023/05/HLS_vs_Dash_cnEDs2G68.webp">
-<track label="Forced" kind="subtitles" srclang="en" src=".vtt" default>
-<track label="French" kind="subtitles" srclang="de" src=".vtt">
-<track kind="chapters" src="https://archive.org/download/la-disparuechapters-c-0/La%20Disparuechapters_c_0.vtt"  label="Chapters" default />
-</video>
-
-<video class='moveToVideoJs js-video-hidden js-video js-video video-js vjs-big-play-centered vjs-default-skin small-player'  controls='' muted height='160' id='js-video-hengest' playsinline width='300'></video>
-
- <script src="https://play.shidur.net/node_modules/video.js/dist/video.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js'></script>
-
-  <script>
-  document.write('<button id=\'transition-toggle\' class="moveToVideoJs video-control hero__headline__name moveToVideoJs">');
-document.write('<span class="video-control-play">');
-document.write('<span class="video-control-symbol"><a href="#" class="tooltip"><span><h3>Annonce<span style="color: #ff0000;">Bande</span></h3>');
-document.write('');
-document.write('<p><strong>&nbsp;</strong></p></span><img src="https://www.zupimages.net/up/23/02/gu1h.png" width="53" height="49" />');
-document.write('</span></a>');
-document.write('</span>');
-document.write('<span class="video-control-pause">');
-document.write('<span id=\'transition-toggle\' class="video-control-symbol" aria-hidden="true"><a href="#" class="tooltip"><span><h3><span style="color: #ff0000;">CLOSE</span></h3>');
-document.write('<p><strong>&nbsp;</strong></p></span><img src="https://www.zupimages.net/up/22/49/jneg.png" width="33" height="29" /></span>');
-document.write('</span></a>');
-document.write('</button>');
+<body style="white-space: pre-line;">
+	
+  <div style="margin-top: -250px;">
   
-  </script>
-  
- 
+  <div style="display:inline-block;"><a href="/"><img src="https://raw.githubusercontent.com/imagesloads/images/refs/heads/main/img_3757108f3f3cd29b.png" alt="logo, page d'accueil" style="max-width: 248px; max-height: 248px;margin-top: 0px;"></a></div><div style="display:inline-block;font-weight:bold;width:60%;"><span style="display:inline-block;font-size:larger;transform:translateY(-45px);">Tools</span>
+	</div>
+
+	
+	<img src="https://tvradiozap.eu/tools/im/flag-uk.gif" /> Watch full screen live TV, videos, or play any radio, audio.
+	<img src="https://tvradiozap.eu/tools/im/flag-fr.gif" /><span lang="fr"> Regardez les TV et vidéos plein écran ou écouter radios et audio.</span>
+
+
+	 Play Hls m3u8, Dash mpd, Dailymotion, Youtube, Vimeo, Twitch, mp4, mp3, flac, aac, ogg...
+
+
+	Entrez simplement le lien audio/vidéo ci-dessous et appuyez sur la touche <span class="boutonlike" style="white-space:nowrap;"> Enter ⏎ </span>  ou cliquez sur <span class="bouton" style="white-space:nowrap;color:white;" onclick="play()">Play</span>.
+	<input name="v" minlength="5" maxlength="2000" type="text" autofocus required
+		placeholder="Examples https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8 or https://vimeo.com/284319264" 
+		value="" />
+
+	<span style="color:red"><?php echo $_GET['err'] ?></span>
+	</div>
+</body>
+
+<script>
+	var el = document.getElementsByName('v')[0];
+	el.addEventListener("keypress", goPlay, false);
+	function goPlay(e){
+		if (e.keyCode === 13)
+			play();
+	}
+	
+	//initialiser le champ d'input avec l'éventuelle url en query
+	var url = decodeURIComponent(window.location.search.substring(1));	//retourne la query sans "?"
+	url = url.replace(/%20/g, " ");		//NB decodeURI ne touche pas aux espaces
+	el.value=url;						//query de l'url mise dans l'input
+
+function play() {
+
+	//l'historique est conservé mais la page non rechargée car seul la query change
+	history.pushState( {}, null, '/tools/joue.html?'+(url = decodeURIComponent(el.value)) );
+	
+	if (url.substring(0,5)==='https')
+		window.open(decodeURIComponent('https://vsalema.github.io/play3/?'+url),'ecoute');	//même nom de target que depuis index.php mais pas même browser context => pas le même TAB
+	else
+		window.open(decodeURIComponent('https://vsalema.github.io/play3/?'+url),'ecoute');	//même nom de target que depuis index.php mais pas même browser context => pas le même TAB
+	return false;
+}
+
 </script>
-<script id="rendered-js">
-// Clears console from unwanted output.
-console.clear();
 
-// Player options on instantiation.
-const options = {
-  autoSetup: false,
-  preload: 'metadata',
-  autoplay: false,
-  loadingSpinner: true,
-  html5: {
-    nativeControlsForTouch: false,
-    nativeAudioTracks: false,
-    nativeVideoTracks: false,
-    hls: {
-      limitRenditionByPlayerDimensions: false,
-      smoothQualityChange: true,
-      bandwidth: 6194304,
-      overrideNative: true } } };
-
-
-
-
-// HLS Streams, one for each player.
-const stream_one = "";
-const stream_two = "https://www.youtube.com/watch?v=1mRzVS72MBA";
-
-// Instantiating two players.
-const horsa = videojs('#js-video-horsa', options);
-const hengest = videojs('#js-video-hengest', options);
-
-// Assigning a stream to each one of them.
-horsa.src({ src: stream_one, type: 'application/dash+xml' });
-hengest.src({ src: stream_two, type: 'video/youtube' });
-
-// Toggle both players visibility to apply a transition, revealing the hidden one and removing the current visible one from view.
-const applyTransition = () => {
-  // Gets all instances of players.
-  const allPlayers = videojs.getAllPlayers();
-
-  // For each player:
-  // 1. Reveals if hidden, hides if visible.
-  // 2. Plays if revealed, pauses if hidden.
-  allPlayers.map(player => {
-    player.el().classList.toggle('js-video-hidden');
-    const isHidden = player.el().classList.contains('js-video-hidden');
-
-    if (player.paused() && !isHidden) {
-      player.play();
-    } else {
-      player.pause();
-    }
-  });
-};
-var myPlayer = videojs('js-video-hengest');
-myPlayer.ready(function () {
-  console.log("downloadvideo");
-  });
-const transitionButton = document.querySelector('#transition-toggle');
-transitionButton.addEventListener('click', () => {
-  applyTransition();
-});
-var video = document.getElementById('js-video-horsa');
-		  var video = document.getElementById("player").innerHTML =
-			 horsa.on("pause", function () {
-				$('.hero__headline__name').fadeIn(1500);
-			});
-            horsa.on("play", function () {
-				$('.hero__headline__name').fadeOut(1500);
-				
-			});
-  </script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-sprite-thumbnails@0.5.2/dist/videojs-sprite-thumbnails.js"></script>
-<script>
-    var player = videojs('js-video-horsa');
-    player.spriteThumbnails({
-    interval:1,
-    url: 'https://www.zupimages.net/up/22/43/xr0d.jpg',
-    vertical: "true",
-    start: 0,
-    duration: 8,
-    interval: 2.4,
-	  width: 120,
-    height: 67
-  });
-  </script>
-
-
-  <script src="https://players.brightcove.net/videojs-quality-menu/1/videojs-quality-menu.min.js"></script>
-<script src="https://unpkg.com/videojs-max-quality-selector@0.9.1/dist/videojs-max-quality-selector.min.js"></script>
-<script>
-  
-  (function(window, videojs) {
-     var player = window.player = videojs('js-video-horsa');
-	  player.ready(function() {
-	  const muteButton = document.querySelector("");
-		  muteButton.click();
-			
-		  var promise = player.play();
-		  if (promise !== undefined) {
-			  promise.then(function() {
-				  const muteButton = document.querySelector("");
-				}).catch(function(error) {
-				});
-			} else {
-			}
-		  });
-player.maxQualitySelector({
-		  displayCurrentQuality: false,
-	  });
-	}(window, window.videojs));
-  
-  </script>
-
-  
-  
-  
-  
-  <script src="https://vsalema.github.io/tvpt4/css/share.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/videojs-logo@2.1.1/dist/videojs-logo.js"></script>
-<script>
-    var player = videojs('js-video-horsa');
-    // initialize the plugin
-    var shareOptions = {
-      url: window.location.href,
-      
-    }
-    player.share(shareOptions);
-    (function(window, videojs) {
-      var examplePlayer = window.examplePlayer = videojs('js-video-horsa');
-      var logo = window.logo = examplePlayer.logo({
-        image: 'https://www.zupimages.net/up/23/34/o1ow.png',
-        url: '//yourdomaine.com/',
-        width: 120,
-        fadeDelay: null
-      });
-    }(window, window.videojs));
-  player.on('play', () => {
-  player.logo().hide();
-  player.on('pause', () => {
-  player.logo().show();
-});
-  });
-  </script>
-<script src="https://vsalema.github.io/tvpt4/css/vjs-cs-play.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/videojs-seek-buttons/dist/videojs-seek-buttons.min.js"></script>
-<script>
-  var player = videojs('js-video-horsa');
-  player.seekButtons({
-    forward: 30,
-    back: 10
-  });
-</script>
-<script>
-var player = videojs('js-video-horsa');
-var myButton = player.controlBar.addChild("button");
-myButton.controlText('rafraîchir Player');
-      player.controlBar
-        .el()
-        .insertBefore(
-          myButton.el(),
-          player.controlBar.getChild('fullscreenToggle').el()
-        );
-var myButtonDom = myButton.el();
-myButtonDom.innerHTML = '<i class="fa fa-refresh fa-spin" style="font-size:18px;color:red"></i>';
-text: 'rafraîchir Player';
-
-myButtonDom.onclick = function(){
-  window.open('https://filmsgratos.com/', '_blank');
-}  
-
-  this.player.addEvent('progress', this.player.currentTime(seekTime));
-// should be ('addEvent' is now 'on' in 4.0)
-this.player.on('progress', function(){ 
-  this.player.currentTime(seekTime); 
-});
-  </script>
- 
-  
-  <script>
-  var player = videojs('js-video-horsa');
-player.maxQualitySelector({
-  'defaultQuality': 2 // Make the video start playing at the highest quality possible
-});
- </script> 
-  
-  
-  
-  
-  
-  <script src="https://vsalema.github.io/play3/js/play52.js"></script>
-  
-  </body>
 </html>
+
